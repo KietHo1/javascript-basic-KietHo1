@@ -1,3 +1,5 @@
+console.log("Hello world from HTML");
+
 let sum = (a, b) => {
   return a + b;
 };

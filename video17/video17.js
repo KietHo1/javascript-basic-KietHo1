@@ -1,10 +1,14 @@
 console.log(`"Hello world from HTML`);
 
-//input paramater
-function sum(a, b) {
-  return a + b;
+function ericFunc(x, y, i) {
+  console.log("1");
+  console.log("2");
+  console.log("3");
+  if (i === 5) return;
+
+  console.log("4");
+  console.log("5");
+  return x + y;
 }
 
-let c = sum(10, 20);
-
-console.log("sum c ", c);
+console.log("check sum: ", ericFunc(9, 6, 5));

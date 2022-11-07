@@ -1,14 +1,12 @@
 console.log(`"Hello world from HTML`);
 
-function ericFunc(x, y, i) {
-  console.log("1");
-  console.log("2");
-  console.log("3");
-  if (i === 5) return;
+// function sum(a, b) {
+//     return a + b;
+// }
 
-  console.log("4");
-  console.log("5");
-  return x + y;
-}
+//arrow function
+let sum = (a, b) => {
+  return a + b;
+};
 
-console.log("check sum: ", ericFunc(9, 6, 5));
+console.log(" check sum: ", sum(6, 9));
